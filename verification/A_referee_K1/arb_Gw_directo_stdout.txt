@@ -1,0 +1,6 @@
+1-x      N=2^14 d=  6: G/N^2 directo = 0.009928224   informe = 0.009928224   dif = 8.16e-14
+1-x      N=2^14 d= 10: G/N^2 directo = 0.016889634   informe = 0.016889634   dif = -3.89e-15
+1-x      N=2^14 d= 30: G/N^2 directo = 0.024236668   informe = 0.024236668   dif = 1.74e-14
+(1-x)^2  N=2^14 d=  6: G/N^2 directo = 0.004321103   informe = 0.004321103   dif = 2.69e-14
+(1-x)^2  N=2^14 d= 10: G/N^2 directo = 0.006662871   informe = 0.006662871   dif = 1.49e-16
+(1-x)^2  N=2^14 d= 30: G/N^2 directo = 0.011160605   informe = 0.011160605   dif = 2.50e-16

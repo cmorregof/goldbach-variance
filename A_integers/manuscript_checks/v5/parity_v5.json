@@ -1,0 +1,81 @@
+{
+ "labels_equal_order": true,
+ "n_labels": [
+  87,
+  87
+ ],
+ "cite_equal": true,
+ "ref_equal": true,
+ "eqref_equal": true,
+ "envs_equal": true,
+ "envs": {
+  "definition": 1,
+  "theorem": 10,
+  "proof": 28,
+  "remark": 20,
+  "corollary": 4,
+  "lemma": 7,
+  "proposition": 9,
+  "claim": 1,
+  "hypothesis": 2,
+  "conjecture": 2,
+  "table": 9
+ },
+ "decimals_equal": true,
+ "ints_equal": true,
+ "status_lines": [
+  55,
+  55
+ ],
+ "verif_marks": [
+  0,
+  0
+ ],
+ "bibitems_equal_order": true,
+ "n_bibitems": 35,
+ "env_label_sequence_equal": true,
+ "cited_not_in_bib": [],
+ "bib_not_cited": [],
+ "inline_math_segments": [
+  2837,
+  2840
+ ],
+ "inline_math_EN_minus_ES": [
+  "\\sing(k)^2=4C_2^2\\prod_{p\\mid m,\\,p>2}\\bigl(\\tfrac{p-1}{p-2}\\bigr)^2=4C_2^2\\sum_{d\\mid m,\\ d\\ \\mathrm{odd}}\\mu^2(d)h(d)",
+  "0",
+  "n\\in[N/2+1,N]",
+  "\\|\\Gamma-\\Gamma_y\\|_2^2+\\|\\Pi^\\flat\\|_2^2\\ll N^2\\cdot N L/y^2=N^3L^{-A}",
+  "\\sum_d h(d)d^{-1}|\\Delta_w(d)|",
+  "\\asymp N^2\\sum_{d\\in(Q_0,Q_1']}\\beta(d)/d\\asymp N^2/Q_0",
+  "\\mathrm{dev}=[(A_0+\\SSt)-\\frac12N^2L^2-(c_1-2)N^2L-(c_0+1)N^2]/N^2",
+  "(P_w+D_w)(Q)=s(Q)\\,r_0^2N^2+\\text{fluctuation}",
+  "\\sqrt{\\#\\text{blocks}}",
+  "g(n)=\\#\\{(p,q)\\text{ primes}:p+q=n\\}",
+  "n\\in[2^k,2^{k+1})",
+  "n\\in[2^k,2^{k+1})",
+  "X_{\\mathrm{box}}-X_w"
+ ],
+ "inline_math_ES_minus_EN": [
+  "n",
+  "n",
+  "n",
+  "n",
+  "\\sing(k)^2=4C_2^2\\prod_{p\\mid m,\\,p>2}\\bigl(\\tfrac{p-1}{p-2}\\bigr)^2=4C_2^2\\sum_{d\\mid m,\\ d\\ \\mathrm{impar}}\\mu^2(d)h(d)",
+  "[N/2+1,N]",
+  "\\|\\Gamma-\\Gamma_y\\|_2^2+\\|\\Pi^\\flat\\|_2^2\\ll N^2\\cdot NL/y^2=N^3L^{-A}",
+  "\\sum_dh(d)d^{-1}|\\Delta_w(d)|",
+  "N^2\\sum_{d\\in(Q_0,Q_1']}\\beta(d)/d\\asymp N^2/Q_0",
+  "\\mathrm{desv.}=[(A_0+\\SSt)-\\frac12N^2L^2-(c_1-2)N^2L-(c_0+1)N^2]/N^2",
+  "(P_w+D_w)(Q)=s(Q)\\,r_0^2N^2+\\text{fluctuación}",
+  "\\sqrt{\\#\\text{bloques}}",
+  "g(n)=\\#\\{(p,q)\\text{ primos}:p+q=n\\}",
+  "[2^k,2^{k+1})",
+  "[2^k,2^{k+1})",
+  "X_{\\mathrm{caja}}-X_w"
+ ],
+ "display_blocks_equal": false,
+ "display_diff_counts": [
+  5,
+  5
+ ]
+}

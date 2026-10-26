@@ -1,0 +1,9 @@
+[t vs x] {"u": 0.3, "T": 100000.0, "pair_psi_t": -0.053620363, "pair_psi_x": -0.053620363, "cross_beta_t": 0.055761886, "cross_beta_x": 0.055761886, "norm_t": 0.159838, "norm_x": 0.159838, "crossnorm_t": 0.047296, "crossnorm_x": 0.047296}
+[t vs x] {"u": 0.7, "T": 100000.0, "pair_psi_t": 0.005139178, "pair_psi_x": 0.005139178, "cross_beta_t": 0.001867004, "cross_beta_x": 0.001867004, "norm_t": 0.015462, "norm_x": 0.015462, "crossnorm_t": -0.0, "crossnorm_x": 0.0}
+zeta: 341 ceros con gamma<600.0; siguiente 601.6021  (71s)
+chi_-4: 289 ceros con 0<gamma<400.0 (esperado ~289.0); max|Im|/|Re| de Lambda en la recta 9.0e-19 (365s)
+[Weil] {"u": 0.3, "L": "zeta", "nzeros_pos": 341, "T": 600.0, "lhs_sum_zeros": 0.0065054, "rhs_density": -0.22501132, "rhs_H1": 0.34687717, "rhs_residue_odd": 0.0, "rhs_prime_sum": -0.11536067, "rhs_total": 0.00650519, "diff": 2.1e-07, "diff_without_extras": 0.23151671, "trunc_scale": 2.61e-06}
+[Weil] {"u": 0.3, "L": "chi_-4", "nzeros_pos": 289, "T": 400.0, "lhs_sum_zeros": 0.02230826, "rhs_density": -0.07228069, "rhs_H1": 0.0, "rhs_residue_odd": 0.12917427, "rhs_prime_sum": -0.03458504, "rhs_total": 0.02230854, "diff": -2.7e-07, "diff_without_extras": 0.09458896, "trunc_scale": 5.5e-06}
+[Weil] {"u": 0.7, "L": "zeta", "nzeros_pos": 341, "T": 600.0, "lhs_sum_zeros": 0.00302759, "rhs_density": -0.02672649, "rhs_H1": 0.06182607, "rhs_residue_odd": 0.0, "rhs_prime_sum": -0.03207207, "rhs_total": 0.0030275, "diff": 9e-08, "diff_without_extras": 0.02975408, "trunc_scale": 1.12e-06}
+[Weil] {"u": 0.7, "L": "chi_-4", "nzeros_pos": 289, "T": 400.0, "lhs_sum_zeros": 0.01016104, "rhs_density": 0.00482554, "rhs_H1": 0.0, "rhs_residue_odd": 0.01193663, "rhs_prime_sum": -0.00660101, "rhs_total": 0.01016116, "diff": -1.1e-07, "diff_without_extras": 0.0053355, "trunc_scale": 2.36e-06}
+listo 510.2299237251282

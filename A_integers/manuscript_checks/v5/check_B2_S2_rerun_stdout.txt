@@ -1,0 +1,37 @@
+sieve done (0.6s); c_B = 1.528798, K = 2.300961544713, 2K = 4.6019
+====================================================================================================
+S2  many N (box): does the endpoint term survive in X?  regressions
+====================================================================================================
+range N in [131072,262144], 400 values; (e(N)^2/N) in [0.000,0.337]; End_1 = 2(N-1)(e-ubar)^2/N^2 in [0.000,0.653]
+  X1     ~ a + b*end1  : a=  3.166  b= 0.994 (+-0.025 block-bootstrap)  pred b=1  resid sd=0.015 (total sd 0.110)
+  X1     ~ a + b*eN2   : a=  3.167  b= 1.995 (+-0.064 block-bootstrap)  pred b=2  resid sd=0.017 (total sd 0.110)
+  X      ~ a + b*eN2   : a=  8.583  b= 4.788 (+-0.965 block-bootstrap)  pred b=2K=4.602  resid sd=0.478 (total sd 0.544)
+  X      ~ a + b*end1  : a=  8.583  b= 2.376 (+-0.471 block-bootstrap)  pred b=K=2.301  resid sd=0.479 (total sd 0.544)
+  Xge2   ~ a + b*end1  : a=  5.417  b= 1.382 (+-0.455 block-bootstrap)  pred b=K-1=1.301  resid sd=0.474 (total sd 0.497)
+  Xle30  ~ a + b*End1  : a=  8.671  b= 1.909 (+-0.353 block-bootstrap)  pred b=~2.30 if only principal  resid sd=0.377 (total sd 0.431)
+  Xle30  ~ a + b*End3  : a=  8.446  b= 1.286 (+-0.128 block-bootstrap)  pred b=~1.08 if only principal  resid sd=0.251 (total sd 0.431)
+  Xle30  ~ a + b*End6  : a=  8.310  b= 0.987 (+-0.055 block-bootstrap)  pred b=~1.01 if only principal  resid sd=0.200 (total sd 0.431)
+  Xle30  ~ a + b*End10 : a=  8.129  b= 1.014 (+-0.039 block-bootstrap)  pred b=~1.01 if only principal  resid sd=0.157 (total sd 0.431)
+  Xle30  ~ a + b*End30 : a=  7.105  b= 1.003 (+-0.020 block-bootstrap)  pred b=1 (Q=30)  resid sd=0.078 (total sd 0.431)
+  X      ~ a + b*End30 : a=  6.958  b= 1.059 (+-0.078 block-bootstrap)  pred b=1  resid sd=0.311 (total sd 0.544)
+  Xgt30  ~ a + b*End30 : a= -0.147  b= 0.056 (+-0.064 block-bootstrap)  pred b=0  resid sd=0.263 (total sd 0.264)
+  Xgt30  ~ a + b*end1  : a= -0.088  b= 0.467 (+-0.297 block-bootstrap)  pred b=K-K30=0.002  resid sd=0.259 (total sd 0.264)
+  N-averages: X=8.770  X1=3.244  Xle30=8.821  end1=0.079  End30=1.711  W1bulk=0.081  Xgt30=-0.052
+  (44s)
+range N in [1048576,2097152], 100 values; (e(N)^2/N) in [0.000,0.308]; End_1 = 2(N-1)(e-ubar)^2/N^2 in [0.000,0.593]
+  X1     ~ a + b*end1  : a=  3.161  b= 0.997 (+-0.014 block-bootstrap)  pred b=1  resid sd=0.013 (total sd 0.126)
+  X1     ~ a + b*eN2   : a=  3.162  b= 1.981 (+-0.053 block-bootstrap)  pred b=2  resid sd=0.014 (total sd 0.126)
+  X      ~ a + b*eN2   : a=  8.536  b= 3.519 (+-0.616 block-bootstrap)  pred b=2K=4.602  resid sd=0.446 (total sd 0.498)
+  X      ~ a + b*end1  : a=  8.535  b= 1.776 (+-0.277 block-bootstrap)  pred b=K=2.301  resid sd=0.446 (total sd 0.498)
+  Xge2   ~ a + b*end1  : a=  5.374  b= 0.779 (+-0.280 block-bootstrap)  pred b=K-1=1.301  resid sd=0.445 (total sd 0.456)
+  Xle30  ~ a + b*End1  : a=  8.705  b= 2.052 (+-0.284 block-bootstrap)  pred b=~2.30 if only principal  resid sd=0.383 (total sd 0.462)
+  Xle30  ~ a + b*End3  : a=  8.534  b= 1.209 (+-0.148 block-bootstrap)  pred b=~1.08 if only principal  resid sd=0.276 (total sd 0.462)
+  Xle30  ~ a + b*End6  : a=  8.387  b= 1.017 (+-0.050 block-bootstrap)  pred b=~1.01 if only principal  resid sd=0.191 (total sd 0.462)
+  Xle30  ~ a + b*End10 : a=  8.247  b= 0.955 (+-0.034 block-bootstrap)  pred b=~1.01 if only principal  resid sd=0.174 (total sd 0.462)
+  Xle30  ~ a + b*End30 : a=  7.108  b= 0.996 (+-0.023 block-bootstrap)  pred b=1 (Q=30)  resid sd=0.073 (total sd 0.462)
+  X      ~ a + b*End30 : a=  6.977  b= 0.958 (+-0.068 block-bootstrap)  pred b=1  resid sd=0.236 (total sd 0.498)
+  Xgt30  ~ a + b*End30 : a= -0.130  b=-0.038 (+-0.053 block-bootstrap)  pred b=0  resid sd=0.183 (total sd 0.184)
+  Xgt30  ~ a + b*end1  : a= -0.171  b=-0.276 (+-0.171 block-bootstrap)  pred b=K-K30=0.002  resid sd=0.180 (total sd 0.184)
+  N-averages: X=8.712  X1=3.261  Xle30=8.911  end1=0.100  End30=1.810  W1bulk=0.091  Xgt30=-0.198
+  (114s)
+total 159s

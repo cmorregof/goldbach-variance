@@ -1,0 +1,51 @@
+[L1.1] max relative error of S(k)=1/2 sum_(d|k) beta(d), k<=2000 : 3.44e-10   (kappa_all=0.6601618156, C2=0.6601618158)
+[L1.1] sum_(d<=4096) beta/phi = 4.6005   (2K = 4.6019); sum_(d<=y) beta - 2 log y at y=4096: 1.149  (claimed ~1.15)
+       sum_(D<d<=2D) beta, D=256: 1.4339  (2 log 2 = 1.3863)
+       sum_(D<d<=2D) beta, D=1024: 1.3680  (2 log 2 = 1.3863)
+       sum_(D<d<=2D) beta, D=2048: 1.3876  (2 log 2 = 1.3863)
+[T1.2] w=1-x N=16384: X_w = 3.451881e+08; sum_d beta(d) Delta(d) = 3.451881e+08; rel.diff 3.44e-10
+[P1.3] min_(d<=N/2 squarefree) G_w(d)/N^2 = +3.764e-03 (should be >= 0)
+[T2.1] w=1-x N=16384: G_mod(d)/N^2 vs G_FG(d)/N^2 (even d), difference, and difference/(d^1/2 N^3/2)
+       d=     1  Gmod= -0.21606  GFG=     +nan  diff=     +nan  diff/(sqrt(d)N^1.5)=+nan
+       d=     2  Gmod= -0.21606  GFG= -0.20962  diff= -0.00644  diff/(sqrt(d)N^1.5)=-0.5832
+       d=     6  Gmod= -0.15499  GFG= -0.14859  diff= -0.00641  diff/(sqrt(d)N^1.5)=-0.3348
+       d=    10  Gmod= -0.08199  GFG= -0.07550  diff= -0.00649  diff/(sqrt(d)N^1.5)=-0.2628
+       d=    30  Gmod= -0.02086  GFG= -0.01447  diff= -0.00639  diff/(sqrt(d)N^1.5)=-0.1494
+       d=    70  Gmod= +0.09661  GFG= +0.10468  diff= -0.00807  diff/(sqrt(d)N^1.5)=-0.1235
+       d=   210  Gmod= +0.15603  GFG= +0.16571  diff= -0.00968  diff/(sqrt(d)N^1.5)=-0.0855
+       d=   330  Gmod= +0.21888  GFG= +0.22532  diff= -0.00644  diff/(sqrt(d)N^1.5)=-0.0454
+       d=  1010  Gmod= +0.43796  GFG= +0.43216  diff= +0.00580  diff/(sqrt(d)N^1.5)=+0.0233
+       d=  2002  Gmod= +0.44890  GFG= +0.47159  diff= -0.02269  diff/(sqrt(d)N^1.5)=-0.0649
+       d=  5002  Gmod= +0.68023  GFG= +0.64183  diff= +0.03840  diff/(sqrt(d)N^1.5)=+0.0695
+[T1.2] w=(1-x)^2 N=32768: X_w = 5.062028e+08; sum_d beta(d) Delta(d) = 5.062028e+08; rel.diff 3.44e-10
+[P1.3] min_(d<=N/2 squarefree) G_w(d)/N^2 = +1.554e-03 (should be >= 0)
+[T2.1] w=(1-x)^2 N=32768: G_mod(d)/N^2 vs G_FG(d)/N^2 (even d), difference, and difference/(d^1/2 N^3/2)
+       d=     1  Gmod= -0.07837  GFG=     +nan  diff=     +nan  diff/(sqrt(d)N^1.5)=+nan
+       d=     2  Gmod= -0.07837  GFG= -0.07626  diff= -0.00211  diff/(sqrt(d)N^1.5)=-0.2702
+       d=     6  Gmod= -0.05640  GFG= -0.05429  diff= -0.00211  diff/(sqrt(d)N^1.5)=-0.1556
+       d=    10  Gmod= -0.03009  GFG= -0.02798  diff= -0.00211  diff/(sqrt(d)N^1.5)=-0.1208
+       d=    30  Gmod= -0.00811  GFG= -0.00601  diff= -0.00210  diff/(sqrt(d)N^1.5)=-0.0695
+       d=    70  Gmod= +0.03448  GFG= +0.03688  diff= -0.00240  diff/(sqrt(d)N^1.5)=-0.0520
+       d=   210  Gmod= +0.05600  GFG= +0.05886  diff= -0.00286  diff/(sqrt(d)N^1.5)=-0.0357
+       d=   330  Gmod= +0.07854  GFG= +0.08032  diff= -0.00178  diff/(sqrt(d)N^1.5)=-0.0177
+       d=  1010  Gmod= +0.15627  GFG= +0.15478  diff= +0.00149  diff/(sqrt(d)N^1.5)=+0.0085
+       d=  2002  Gmod= +0.16443  GFG= +0.16897  diff= -0.00454  diff/(sqrt(d)N^1.5)=-0.0184
+       d=  5002  Gmod= +0.23988  GFG= +0.23026  diff= +0.00962  diff/(sqrt(d)N^1.5)=+0.0246
+       d= 10010  Gmod= +0.24167  GFG= +0.21726  diff= +0.02442  diff/(sqrt(d)N^1.5)=+0.0442
+[T1.2] w=bump N=65536: X_w = 3.648934e+09; sum_d beta(d) Delta(d) = 3.648934e+09; rel.diff 3.44e-10
+[P1.3] min_(d<=N/2 squarefree) G_w(d)/N^2 = +2.608e-03 (should be >= 0)
+[T2.1] w=bump N=65536: G_mod(d)/N^2 vs G_FG(d)/N^2 (even d), difference, and difference/(d^1/2 N^3/2)
+       d=     1  Gmod= -0.14781  GFG=     +nan  diff=     +nan  diff/(sqrt(d)N^1.5)=+nan
+       d=     2  Gmod= -0.14781  GFG= -0.14504  diff= -0.00277  diff/(sqrt(d)N^1.5)=-0.5013
+       d=     6  Gmod= -0.10556  GFG= -0.10279  diff= -0.00277  diff/(sqrt(d)N^1.5)=-0.2899
+       d=    10  Gmod= -0.05497  GFG= -0.05219  diff= -0.00278  diff/(sqrt(d)N^1.5)=-0.2249
+       d=    30  Gmod= -0.01277  GFG= -0.00994  diff= -0.00283  diff/(sqrt(d)N^1.5)=-0.1321
+       d=    70  Gmod= +0.07005  GFG= +0.07254  diff= -0.00249  diff/(sqrt(d)N^1.5)=-0.0762
+       d=   210  Gmod= +0.11219  GFG= +0.11479  diff= -0.00260  diff/(sqrt(d)N^1.5)=-0.0459
+       d=   330  Gmod= +0.15324  GFG= +0.15606  diff= -0.00282  diff/(sqrt(d)N^1.5)=-0.0398
+       d=  1010  Gmod= +0.29727  GFG= +0.29925  diff= -0.00198  diff/(sqrt(d)N^1.5)=-0.0159
+       d=  2002  Gmod= +0.31305  GFG= +0.32654  diff= -0.01349  diff/(sqrt(d)N^1.5)=-0.0772
+       d=  5002  Gmod= +0.45742  GFG= +0.44440  diff= +0.01302  diff/(sqrt(d)N^1.5)=+0.0471
+       d= 10010  Gmod= +0.37566  GFG= +0.41939  diff= -0.04373  diff/(sqrt(d)N^1.5)=-0.1119
+       d= 30030  Gmod= +0.41638  GFG= +0.46164  diff= -0.04526  diff/(sqrt(d)N^1.5)=-0.0669
+[blocks] w=1-x N=65536: q-blocks (P+D)/N^2 for Q=16..8192: +0.0068 +0.0003 -0.0008 +0.0042 +0.0007 +0.0014 +0.0016 +0.0005 +0.0001 +0.0002

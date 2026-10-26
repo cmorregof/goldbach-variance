@@ -1,0 +1,14 @@
+zeta: 138 ceros 0<gamma<300.0 (esperado 137.7); (20s)
+chi_-3: 189 ceros 0<gamma<300.0 (esperado 189.3); (211s)
+L(1,chi_-3) = 0.604599788078 (pi/(3 sqrt3) = 0.604599788078);  L'/L(1,chi_-3) = 0.368281615980
+[Weil] {"u": 0.3, "L": "zeta", "lhs": 0.006180684, "density": -0.22533674, "H1term": 0.34687717, "odd_residue": 0.0, "prime_sum": -0.115360667, "total": 0.006179763, "diff": 9.2e-07, "diff_sin_extras": 0.231517424, "escala_trunc": 9.316e-06}
+[Weil] {"u": 0.3, "L": "chi_-3", "lhs": 0.015461211, "density": -0.132034723, "H1term": 0.0, "odd_residue": 0.193691578, "prime_sum": -0.046194268, "total": 0.015462587, "diff": -1.376e-06, "diff_sin_extras": 0.147495934, "escala_trunc": 9.316e-06}
+[Weil] {"u": 0.7, "L": "zeta", "lhs": 0.002888461, "density": -0.026865936, "H1term": 0.061826065, "odd_residue": 0.0, "prime_sum": -0.032072074, "total": 0.002888054, "diff": 4.07e-07, "diff_sin_extras": 0.029754398, "escala_trunc": 3.993e-06}
+[Weil] {"u": 0.7, "L": "chi_-3", "lhs": 0.008136571, "density": 0.000306628, "H1term": 0.0, "odd_residue": 0.017898487, "prime_sum": -0.010067954, "total": 0.00813716, "diff": -5.89e-07, "diff_sin_extras": 0.007829943, "escala_trunc": 3.993e-06}
+D_w(6) de ceros |gamma|<T: 0.0064684; cola por densidad: 0.0004788; total 0.0069472  (817s)
+formula: GFG=-0.148586 par=0.032424 Rodd=0.067518 Rprin=0.090278 Pr=-0.034688 (cola -1.32e-04)  D=0.0069465
+informe K1 (json): D=0.006941  par=0.032424 Rodd=0.067512 Rprin=0.090278 Pr=-0.034686
+N=2^14: O^T(N;6) = -0.000027;  medido G/N^2 - D(zeros) = +0.002981;  G/N^2 - D - O^T = +0.003008  (PNT del informe -0.006604)
+N=2^15: O^T(N;6) = +0.000401;  medido G/N^2 - D(zeros) = +0.002179;  G/N^2 - D - O^T = +0.001778  (PNT del informe -0.004939)
+N=2^16: O^T(N;6) = +0.000332;  medido G/N^2 - D(zeros) = +0.001243;  G/N^2 - D - O^T = +0.000911  (PNT del informe -0.003693)
+listo 974.3237261772156

@@ -1,0 +1,45 @@
+w=1-x N=2^18: per q-block, /N^2:  Ppair, Pgold, Ppair-Pgold | model parts: Mpair, Mgold (H-L prediction), and residuals Ppair-Mpair, Pgold-Mgold
+   Q=    0  Ppair=54916.1714 Pgold=54916.1560 diff=  +0.0154 | Mpair=54923.6132 Mgold=54924.4598 | resid pair  -7.4418 gold  -8.3039
+   Q=    2  Ppair=3431.2307 Pgold=3431.2211 diff=  +0.0097 | Mpair=3432.6181 Mgold=3432.7382 | resid pair  -1.3873 gold  -1.5171
+   Q=    4  Ppair=3985.9696 Pgold=3985.9410 diff=  +0.0287 | Mpair=3988.7900 Mgold=3988.9326 | resid pair  -2.8204 gold  -2.9916
+   Q=    8  Ppair= 652.5153 Pgold= 652.4656 diff=  +0.0497 | Mpair= 653.1651 Mgold= 653.1533 | resid pair  -0.6497 gold  -0.6877
+   Q=   16  Ppair= 128.9993 Pgold= 128.8901 diff=  +0.1092 | Mpair= 129.1881 Mgold= 129.0781 | resid pair  -0.1888 gold  -0.1880
+   Q=   32  Ppair=  43.6080 Pgold=  43.3890 diff=  +0.2190 | Mpair=  43.6919 Mgold=  43.4748 | resid pair  -0.0840 gold  -0.0858
+   Q=   64  Ppair=  13.8581 Pgold=  13.5292 diff=  +0.3290 | Mpair=  13.8922 Mgold=  13.5572 | resid pair  -0.0341 gold  -0.0280
+   Q=  128  Ppair=   3.1573 Pgold=   2.7158 diff=  +0.4415 | Mpair=   3.1652 Mgold=   2.7218 | resid pair  -0.0079 gold  -0.0060
+   Q=  256  Ppair=   1.1679 Pgold=   0.6159 diff=  +0.5520 | Mpair=   1.1666 Mgold=   0.6201 | resid pair  +0.0013 gold  -0.0042
+   Q=  512  Ppair=   0.7439 Pgold=   0.0972 diff=  +0.6467 | Mpair=   0.7416 Mgold=   0.0966 | resid pair  +0.0022 gold  +0.0007
+   Q= 1024  Ppair=   0.7231 Pgold=  -0.0306 diff=  +0.7537 | Mpair=   0.7216 Mgold=  -0.0321 | resid pair  +0.0015 gold  +0.0016
+   Q= 2048  Ppair=   0.8026 Pgold=  -0.0640 diff=  +0.8666 | Mpair=   0.8021 Mgold=  -0.0643 | resid pair  +0.0005 gold  +0.0003
+   Q= 4096  Ppair=   0.9023 Pgold=  -0.0723 diff=  +0.9746 | Mpair=   0.9023 Mgold=  -0.0722 | resid pair  +0.0000 gold  -0.0001
+   Q= 8192  Ppair=   1.0109 Pgold=  -0.0760 diff=  +1.0869 | Mpair=   1.0107 Mgold=  -0.0761 | resid pair  +0.0002 gold  +0.0001
+w=1-x N=2^20: per q-block, /N^2:  Ppair, Pgold, Ppair-Pgold | model parts: Mpair, Mgold (H-L prediction), and residuals Ppair-Mpair, Pgold-Mgold
+   Q=    0  Ppair=219693.7320 Pgold=219693.7157 diff=  +0.0163 | Mpair=219699.8455 Mgold=219700.6884 | resid pair  -6.1135 gold  -6.9727
+   Q=    2  Ppair=13729.6929 Pgold=13729.6852 diff=  +0.0077 | Mpair=13731.1333 Mgold=13731.2525 | resid pair  -1.4404 gold  -1.5673
+   Q=    4  Ppair=15953.0159 Pgold=15952.9901 diff=  +0.0258 | Mpair=15956.0467 Mgold=15956.1876 | resid pair  -3.0308 gold  -3.1975
+   Q=    8  Ppair=2612.1718 Pgold=2612.1211 diff=  +0.0507 | Mpair=2612.8878 Mgold=2612.8748 | resid pair  -0.7161 gold  -0.7537
+   Q=   16  Ppair= 516.4216 Pgold= 516.3051 diff=  +0.1165 | Mpair= 516.6313 Mgold= 516.5203 | resid pair  -0.2097 gold  -0.2152
+   Q=   32  Ppair= 174.2536 Pgold= 174.0304 diff=  +0.2232 | Mpair= 174.3414 Mgold= 174.1230 | resid pair  -0.0878 gold  -0.0926
+   Q=   64  Ppair=  54.7646 Pgold=  54.4281 diff=  +0.3365 | Mpair=  54.7998 Mgold=  54.4636 | resid pair  -0.0352 gold  -0.0355
+   Q=  128  Ppair=  11.5494 Pgold=  11.1029 diff=  +0.4465 | Mpair=  11.5611 Mgold=  11.1166 | resid pair  -0.0118 gold  -0.0137
+   Q=  256  Ppair=   3.2501 Pgold=   2.7034 diff=  +0.5467 | Mpair=   3.2545 Mgold=   2.7068 | resid pair  -0.0044 gold  -0.0034
+   Q=  512  Ppair=   1.2557 Pgold=   0.6083 diff=  +0.6474 | Mpair=   1.2556 Mgold=   0.6099 | resid pair  +0.0001 gold  -0.0017
+   Q= 1024  Ppair=   0.8499 Pgold=   0.0947 diff=  +0.7551 | Mpair=   0.8496 Mgold=   0.0960 | resid pair  +0.0002 gold  -0.0012
+   Q= 2048  Ppair=   0.8341 Pgold=  -0.0312 diff=  +0.8653 | Mpair=   0.8340 Mgold=  -0.0315 | resid pair  +0.0001 gold  +0.0003
+   Q= 4096  Ppair=   0.9084 Pgold=  -0.0639 diff=  +0.9723 | Mpair=   0.9080 Mgold=  -0.0643 | resid pair  +0.0005 gold  +0.0004
+   Q= 8192  Ppair=   1.0070 Pgold=  -0.0722 diff=  +1.0792 | Mpair=   1.0068 Mgold=  -0.0724 | resid pair  +0.0002 gold  +0.0002
+w=(1-x)^2 N=2^20: per q-block, /N^2:  Ppair, Pgold, Ppair-Pgold | model parts: Mpair, Mgold (H-L prediction), and residuals Ppair-Mpair, Pgold-Mgold
+   Q=    0  Ppair=54769.8945 Pgold=54769.8877 diff=  +0.0067 | Mpair=54773.4262 Mgold=54773.7332 | resid pair  -3.5317 gold  -3.8455
+   Q=    2  Ppair=3422.6861 Pgold=3422.6830 diff=  +0.0031 | Mpair=3423.2997 Mgold=3423.3435 | resid pair  -0.6135 gold  -0.6605
+   Q=    4  Ppair=3976.7652 Pgold=3976.7558 diff=  +0.0094 | Mpair=3977.9862 Mgold=3978.0386 | resid pair  -1.2210 gold  -1.2828
+   Q=    8  Ppair= 651.1305 Pgold= 651.1127 diff=  +0.0177 | Mpair= 651.4122 Mgold= 651.4087 | resid pair  -0.2817 gold  -0.2960
+   Q=   16  Ppair= 128.7236 Pgold= 128.6837 diff=  +0.0399 | Mpair= 128.8050 Mgold= 128.7662 | resid pair  -0.0815 gold  -0.0825
+   Q=   32  Ppair=  43.4444 Pgold=  43.3676 diff=  +0.0768 | Mpair=  43.4795 Mgold=  43.4021 | resid pair  -0.0350 gold  -0.0345
+   Q=   64  Ppair=  13.6748 Pgold=  13.5570 diff=  +0.1178 | Mpair=  13.6890 Mgold=  13.5692 | resid pair  -0.0142 gold  -0.0122
+   Q=  128  Ppair=   2.9171 Pgold=   2.7591 diff=  +0.1580 | Mpair=   2.9213 Mgold=   2.7625 | resid pair  -0.0042 gold  -0.0034
+   Q=  256  Ppair=   0.8607 Pgold=   0.6655 diff=  +0.1952 | Mpair=   0.8619 Mgold=   0.6660 | resid pair  -0.0012 gold  -0.0004
+   Q=  512  Ppair=   0.3748 Pgold=   0.1431 diff=  +0.2318 | Mpair=   0.3746 Mgold=   0.1433 | resid pair  +0.0003 gold  -0.0003
+   Q= 1024  Ppair=   0.2856 Pgold=   0.0148 diff=  +0.2708 | Mpair=   0.2854 Mgold=   0.0151 | resid pair  +0.0002 gold  -0.0004
+   Q= 2048  Ppair=   0.2940 Pgold=  -0.0166 diff=  +0.3105 | Mpair=   0.2938 Mgold=  -0.0167 | resid pair  +0.0001 gold  +0.0001
+   Q= 4096  Ppair=   0.3244 Pgold=  -0.0248 diff=  +0.3492 | Mpair=   0.3242 Mgold=  -0.0248 | resid pair  +0.0001 gold  +0.0000
+   Q= 8192  Ppair=   0.3611 Pgold=  -0.0269 diff=  +0.3879 | Mpair=   0.3610 Mgold=  -0.0269 | resid pair  +0.0001 gold  +0.0000
