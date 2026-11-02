@@ -1,10 +1,10 @@
 # goldbach-variance
 
-Code and data accompanying three papers by J. C. Riaño-Rojas and C. M. Orrego-Franco (Universidad Nacional de Colombia, Sede Manizales), in preparation, 2026:
+Code and data accompanying three papers by J. C. Riaño-Rojas and C. M. Orrego-Franco (Universidad Nacional de Colombia, Sede Manizales), submitted to the Journal of Number Theory, 2026:
 
-- **A** — *The variance of the Goldbach error in the box: exact decomposition, the endpoint obstruction and the divisor tail*;
-- **B** — *The Goldbach variance over F_q[T]: its difference from the prime-pair variance and the constant one half in the large-q limit*;
-- **C** — *The four-point singular series and the constant one half in the Goldbach variance*.
+- **A** — *On the decomposition of the Goldbach variance and the tail of large divisors*;
+- **B** — *The difference between the Goldbach and prime-pair variances over F_q[T] in the large-q limit*;
+- **C** — *The four-point singular series and the mean square of the Goldbach error*.
 
 ## Layout
 
